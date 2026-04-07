@@ -2,37 +2,39 @@ namespace ConsoleApp;
 
 /******************************************************
  nazwa klasy: Film
- pola:        Title - tytuł filmu
-              BorrowsCount - liczba wypożyczeń
- metody:      SetTitle, brak - ustawia tytuł na podaną wartość
-              GetTitle, string - pobiera wartość tytułu i go zwraca
-              GetBorrowsCount, int - pobiera wartość liczby wypożyczeń i ją zwraca
-              IncrementBorrowsCount, brak - powiększa wartość liczby wypożyczeń o 1
+ pola:        Tytul - tytuł filmu
+              LiczbaWypozyczen - liczba wypożyczeń
+ metody:      UstawTytul, brak - ustawia tytuł na podaną wartość
+              PobierzTytul, string - pobiera wartość tytułu i go zwraca
+              PobierzLiczbaWypozyczen, int - pobiera wartość liczby wypożyczeń i ją zwraca
+              InkrementujLiczbaWypozyczen, brak - powiększa wartość liczby wypożyczeń o 1
  informacje:  Klasa reprezentująca wypożyczony film, zawartę są w niej informacje o tytule i liczbie wypożyczeń.
  autor:       00000000000
 *****************************************************/
 public class Film
 {
-    protected string Title = "";
-    protected int BorrowsCount = 0;
+    protected string Tytul = string.Empty;
+    protected int LiczbaWypozyczen = 0;
     
-    public void SetTitle(string title)
+    public void UstawTytul(string tytul)
     {
-        Title = title;
+        if (tytul.Length > 20)
+            throw new ArgumentException("Tytuł może mieć maksymalnie 20 znaków");
+        Tytul = tytul;
     }
     
-    public string GetTitle()
+    public string PobierzTytul()
     {
-        return Title;
+        return Tytul;
     }
 
-    public int GetBorrowsCount()
+    public int PobierzLiczbaWypozyczen()
     {
-        return BorrowsCount;
+        return LiczbaWypozyczen;
     }
     
-    public void IncrementBorrowsCount()
+    public void InkrementujLiczbaWypozyczen()
     {
-        BorrowsCount++;
+        LiczbaWypozyczen++;
     }
 }

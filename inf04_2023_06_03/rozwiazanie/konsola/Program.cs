@@ -6,16 +6,16 @@ internal static class Program
     {
         var film = new Film();
         
-        Console.WriteLine($"Początkowy tytuł: {film.GetTitle()}");
-        Console.WriteLine($"Początkowa liczba wypożyczeń: {film.GetBorrowsCount()}");
+        Console.WriteLine($"Początkowy tytuł: {film.PobierzTytul()}");
+        Console.WriteLine($"Początkowa liczba wypożyczeń: {film.PobierzLiczbaWypozyczen()}");
         
-        film.SetTitle("Szybcy i wściekli");
+        film.UstawTytul("Szybcy i wściekli");
         
-        Console.WriteLine($"Tytuł: {film.GetTitle()}");
-        Console.WriteLine($"Liczba wypożyczeń: {film.GetBorrowsCount()}");
+        Console.WriteLine($"Tytuł: {film.PobierzTytul()}");
+        Console.WriteLine($"Liczba wypożyczeń: {film.PobierzLiczbaWypozyczen()}");
         
-        Console.WriteLine($"Liczb wypożyczeń przed inkrementacją: {film.GetBorrowsCount()}");
-        film.IncrementBorrowsCount();
-        Console.WriteLine($"Liczb wypożyczeń po inkrementacji: {film.GetBorrowsCount()}");
+        Console.WriteLine($"Liczb wypożyczeń przed inkrementacją: {film.PobierzLiczbaWypozyczen()}");
+        film.InkrementujLiczbaWypozyczen();
+        Console.WriteLine($"Liczb wypożyczeń po inkrementacji: {film.PobierzLiczbaWypozyczen()}");
     }
 }
