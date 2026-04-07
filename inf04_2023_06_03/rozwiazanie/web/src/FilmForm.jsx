@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useRef } from "react";
 
 const GENRES = [
   { label: "" },
@@ -9,12 +9,14 @@ const GENRES = [
 ];
 
 export default function FilmForm() {
+  const titleRef = useRef(null);
+  const genreRef = useRef(null);
+
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
 
-    const formData = new FormData(e.currentTarget);
-    const title = formData.get("title");
-    const genre = formData.get("genre");
+    const title = titleRef.current.value;
+    const genre = genreRef.current.value;
 
     console.log(`tytul: ${title}; rodzaj: ${genre}`);
   }, []);
@@ -27,9 +29,9 @@ export default function FilmForm() {
         </label>
 
         <input
+          ref={titleRef}
           className="form-control"
           id="title"
-          name="title"
           type="text"
           required
         />
@@ -40,7 +42,7 @@ export default function FilmForm() {
           Rodzaj
         </label>
 
-        <select className="form-select" id="genre" name="genre" required>
+        <select ref={genreRef} className="form-select" id="genre" required>
           {GENRES.map(({ label, value }) => (
             <option key={label} value={value}>
               {label}
