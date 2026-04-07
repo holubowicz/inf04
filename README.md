@@ -15,9 +15,10 @@ Zakres tematyczny INF.04 obejmuje między innymi:
 > [!NOTE]
 > Rozwiązania nie zawierają zrzutów ekranu wymaganych w części dokumentacyjnej egzaminu.
 
-| Rok  | Miesiąc | Wersja | Rodzaj aplikacji | Nazwa           |                            |                                                   |                                           |                                                       |
-| ---- | ------- | :----: | ---------------- | --------------- | :------------------------: | :-----------------------------------------------: | :---------------------------------------: | :---------------------------------------------------: |
-| 2025 | Styczeń |   01   | Webowa           | Kategorie zdjęć | [Folder](inf04_2025_01_01) | [Arkusz](inf04_2025_01_01/INF.04-01-25.01-SG.pdf) | [Pliki (ZIP)](inf04_2025_01_01/pliki.zip) | [Rozwiązanie (ZIP)](inf04_2025_01_01/rozwiazanie.zip) |
+| Rok  | Miesiąc  | Wersja | Rodzaj aplikacji | Nazwa           |                             |                                                   |                                           |                                                       |
+| ---- | -------- | :----: | ---------------- | --------------- | :-------------------------: | :-----------------------------------------------: | :---------------------------------------: | :---------------------------------------------------: |
+| 2025 | Styczeń  |   1    | Webowa           | Kategorie zdjęć | [Folder](inf04_2025_01_01/) | [Arkusz](inf04_2025_01_01/INF.04-01-25.01-SG.pdf) | [Pliki (ZIP)](inf04_2025_01_01/pliki.zip) | [Rozwiązanie (ZIP)](inf04_2025_01_01/rozwiazanie.zip) |
+| 2023 | Czerwiec |   3    | Webowa           | Formularz       | [Folder](inf04_2023_06_03/) | [Arkusz](inf04_2023_06_03/INF.04-03-23.06-SG.pdf) |                     -                     | [Rozwiązanie (ZIP)](inf04_2023_06_03/rozwiazanie.zip) |
 
 ---
 
