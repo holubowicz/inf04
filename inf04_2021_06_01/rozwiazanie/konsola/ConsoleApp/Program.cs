@@ -51,7 +51,7 @@
 
         private static void GetUserInput()
         {
-            Console.WriteLine($"Podaj tablice liczb całkowitych");
+            Console.WriteLine("Podaj tablice liczb całkowitych");
 
             for (int i = 0; i < _arraySize; i++)
             {
