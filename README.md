@@ -15,9 +15,9 @@ Zakres tematyczny INF.04 obejmuje między innymi:
 > [!NOTE]
 > Rozwiązania nie zawierają zrzutów ekranu wymaganych w części dokumentacyjnej egzaminu.
 
-| Rok  | Miesiąc  | Wersja | Rodzaj aplikacji | Nazwa             |                             |                                                   |     |                                                       |
-| ---- | -------- | :----: | ---------------- | ----------------- | :-------------------------: | :-----------------------------------------------: | :-: | :---------------------------------------------------: |
-| 2021 | Czerwiec |   1    | Mobilna          | Rejestracja konta | [Folder](inf04_2021_06_01/) | [Arkusz](inf04_2021_06_01/INF.04-01-21.06-SG.pdf) |  -  | [Rozwiązanie (ZIP)](inf04_2021_06_01/rozwiazanie.zip) |
+| Rok  | Miesiąc  | Wersja | Rodzaj aplikacji | Nazwa             |                             |                                                   |                                                                        |     |                                                       |
+| ---- | -------- | :----: | ---------------- | ----------------- | :-------------------------: | :-----------------------------------------------: | :--------------------------------------------------------------------: | :-: | :---------------------------------------------------: |
+| 2021 | Czerwiec |   1    | Mobilna          | Rejestracja konta | [Folder](inf04_2021_06_01/) | [Arkusz](inf04_2021_06_01/INF.04-01-21.06-SG.pdf) | [Zasady oceniania](inf04_2021_06_01/INF.04-01-21.06-SG-odpowiedzi.pdf) |  -  | [Rozwiązanie (ZIP)](inf04_2021_06_01/rozwiazanie.zip) |
 
 ---
 
