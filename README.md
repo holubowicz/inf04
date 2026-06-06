@@ -15,10 +15,11 @@ Zakres tematyczny INF.04 obejmuje między innymi:
 > [!NOTE]
 > Rozwiązania nie zawierają zrzutów ekranu wymaganych w części dokumentacyjnej egzaminu.
 
-| Rok  | Miesiąc  | Wersja | Rodzaj aplikacji | Nazwa              |                             |                                                   |                                                                        |                                           |                                                       |
-| ---- | -------- | :----: | ---------------- | ------------------ | :-------------------------: | :-----------------------------------------------: | :--------------------------------------------------------------------: | :---------------------------------------: | :---------------------------------------------------: |
-| 2022 | Czerwiec |   1    | Mobilna          | Oferty turystyczne | [Folder](inf04_2022_06_01/) | [Arkusz](inf04_2022_06_01/INF.04-01-22.06-SG.pdf) | [Zasady oceniania](inf04_2022_06_01/INF.04-01-22.06-SG-odpowiedzi.pdf) | [Pliki (ZIP)](inf04_2022_06_01/pliki.zip) | [Rozwiązanie (ZIP)](inf04_2022_06_01/rozwiazanie.zip) |
-| 2021 | Czerwiec |   1    | Mobilna          | Rejestracja konta  | [Folder](inf04_2021_06_01/) | [Arkusz](inf04_2021_06_01/INF.04-01-21.06-SG.pdf) | [Zasady oceniania](inf04_2021_06_01/INF.04-01-21.06-SG-odpowiedzi.pdf) |                     -                     | [Rozwiązanie (ZIP)](inf04_2021_06_01/rozwiazanie.zip) |
+| Rok  | Miesiąc  | Wersja | Rodzaj egzaminu         | Nazwa              |                             |                                                   |                                                                        |                                           |                                                       |
+| ---- | -------- | :----: | ----------------------- | ------------------ | :-------------------------: | :-----------------------------------------------: | :--------------------------------------------------------------------: | :---------------------------------------: | :---------------------------------------------------: |
+| 2022 | Czerwiec |   1    | Mobilna, Dokumentacja   | Oferty turystyczne | [Folder](inf04_2022_06_01/) | [Arkusz](inf04_2022_06_01/INF.04-01-22.06-SG.pdf) | [Zasady oceniania](inf04_2022_06_01/INF.04-01-22.06-SG-odpowiedzi.pdf) | [Pliki (ZIP)](inf04_2022_06_01/pliki.zip) | [Rozwiązanie (ZIP)](inf04_2022_06_01/rozwiazanie.zip) |
+| 2022 | Czerwiec |   2    | Webowa, Testy aplikacji | Kursy              | [Folder](inf04_2022_06_02/) | [Arkusz](inf04_2022_06_02/INF.04-02-22.06-SG.pdf) | [Zasady oceniania](inf04_2022_06_02/INF.04-02-22.06-SG-odpowiedzi.pdf) |                     -                     | [Rozwiązanie (ZIP)](inf04_2022_06_02/rozwiazanie.zip) |
+| 2021 | Czerwiec |   1    | Mobilna, Dokumentacja   | Rejestracja konta  | [Folder](inf04_2021_06_01/) | [Arkusz](inf04_2021_06_01/INF.04-01-21.06-SG.pdf) | [Zasady oceniania](inf04_2021_06_01/INF.04-01-21.06-SG-odpowiedzi.pdf) |                     -                     | [Rozwiązanie (ZIP)](inf04_2021_06_01/rozwiazanie.zip) |
 
 ---
 
