@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Teal" />
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Margin="0,20,0,0">
+            <Label Text="Domek w górach"
+                   FontSize="24" />
+
+            <Image Source="obraz.jpg" />
+
+            <HorizontalStackLayout BackgroundColor="Teal">
+                <Button Text="POLUB"
+                        Clicked="LikeButton_OnClicked" />
+
+                <Button Text="USUŃ"
+                        Clicked="DeleteButton_OnClicked" />
+
+                <Button Text="ZAPISZ" />
+            </HorizontalStackLayout>
+
+            <Label x:Name="LikesLabel"
+                   Text="0 polubień"
+                   HorizontalTextAlignment="End" />
+
+            <BoxView HeightRequest="1"
+                     BackgroundColor="Gray" />
+
+            <Label Text="Opis"
+                   FontAttributes="Bold" />
+
+            <Label Text="Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych"
+                   TextColor="Gray" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
