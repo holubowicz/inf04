@@ -15,7 +15,7 @@ namespace ConsoleApp
                 while (true)
                 {
                     Console.Write($"Podaj {i + 1} liczbe: ");
-                    if (int.TryParse(Console.ReadLine(), out int number))
+                    if (int.TryParse(Console.ReadLine() ?? string.Empty, out int number))
                     {
                         _array[i] = number;
                         break;
