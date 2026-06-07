@@ -31,7 +31,7 @@
 
         <GroupBox Grid.Row="0"
                   Grid.Column="0"
-                  Header="Dane Pracownika">
+                  Header="Dane pracownika">
             <Grid Margin="20,10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto" />
