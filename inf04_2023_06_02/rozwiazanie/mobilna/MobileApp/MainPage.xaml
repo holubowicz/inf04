@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="20">
+            <Label Text="Właściwości czcionki"
+                   Margin="0,0,0,20"
+                   BackgroundColor="#558B2F"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold" />
+            
+            <Label x:Name="SizeLabel"
+                   Text="Rozmiar:"
+                   FontSize="18" />
+            
+            <Slider Maximum="40"
+                    ValueChanged="SizeSlider_OnValueChanged" />
+            
+            <Label x:Name="QuoteLabel" />
+            
+            <Button Text=">>"
+                    Clicked="NextButton_OnClicked"
+                    WidthRequest="100"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#558B2F"
+                    TextColor="White"
+                    CornerRadius="0"
+                    FontAttributes="Bold" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
