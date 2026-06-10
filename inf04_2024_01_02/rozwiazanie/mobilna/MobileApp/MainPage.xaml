@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="LightGreen">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <Label Text="Wizyta u weterynarza"
+                   Padding="10"
+                   BackgroundColor="SeaGreen"
+                   FontSize="24" />
+            
+            <Entry x:Name="OwnerFullNameEntry"
+                   Placeholder="Imię i nazwisko właściciela..." />
+            
+            <Label Text="Gatunek" />
+            
+            <CollectionView x:Name="SpeciesCollectionView"
+                            SelectionChanged="SpeciesCollectionView_OnSelectionChanged"
+                            SelectionMode="Single" />
+            
+            <Grid ColumnDefinitions="auto, auto, *">
+                <Label Grid.Column="0"
+                       Text="Ile ma lat?"
+                       Margin="0,0,10,0"
+                       VerticalOptions="Center" />
+                
+                <Label Grid.Column="1"
+                       x:Name="PetAgeLabel"
+                       Text="0"
+                       Margin="0,0,10,0"
+                       VerticalOptions="Center" />
+                
+                <Slider Grid.Column="2"
+                        x:Name="PetAgeSlider"
+                        Maximum="20"
+                        ValueChanged="AgeSlider_OnValueChanged" />
+            </Grid>
+            
+            <Entry x:Name="VisitPurposeEntry"
+                   Placeholder="Cel wizyty" />
+            
+            <TimePicker x:Name="VisitTimePicker"
+                        Time="16:00" />
+            
+            <Button Text="OK"
+                    Clicked="OkButton_OnClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
