@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data.txt" />
+    <None Remove="Images\obraz.png" />
+    <None Remove="Images\obraz2.png" />
+    <None Remove="Images\obraz3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\obraz.png" />
+    <Resource Include="Images\obraz2.png" />
+    <Resource Include="Images\obraz3.png" />
+  </ItemGroup>
+
+</Project>
