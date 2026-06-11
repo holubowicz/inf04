@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="Beige">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0,10" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,10" />
+            <Setter Property="Padding" Value="12,9" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="BackgroundColor" Value="Chocolate" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="9" />
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="HeightRequest" Value="60" />
+            <Setter Property="Margin" Value="9" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Gra w kości. Autor 00000000000"
+                   Padding="9"
+                   BackgroundColor="Brown"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   FontSize="22" />
+
+            <Button Text="RZUĆ KOŚĆMI"
+                    Clicked="RollDiceButton_OnClicked" />
+
+            <HorizontalStackLayout x:Name="ImagesStackLayout"
+                                   Padding="0,9"
+                                   HorizontalOptions="Fill"
+                                   BackgroundColor="White">
+                <Image Source="question.jpg" />
+
+                <Image Source="question.jpg" />
+
+                <Image Source="question.jpg" />
+
+                <Image Source="question.jpg" />
+
+                <Image Source="question.jpg" />
+            </HorizontalStackLayout>
+
+            <Label x:Name="ScoreLabel"
+                   Text="Wynik tego losowania:" />
+
+            <Label x:Name="GameScoreLabel"
+                   Text="Wynik gry:" />
+
+            <Button Text="RESETUJ WYNIK"
+                    Clicked="ResetScoreButton_OnClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
