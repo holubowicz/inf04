@@ -4,13 +4,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileApp.MainPage">
 
-    <ContentPage.Resources>
-        <Style TargetType="Button">
-            <Setter Property="BackgroundColor" Value="Teal" />
-            <Setter Property="TextColor" Value="White" />
-        </Style>
-    </ContentPage.Resources>
-
     <ScrollView>
         <VerticalStackLayout Margin="0,20,0,0">
             <Label Text="Domek w górach"
@@ -20,12 +13,15 @@
 
             <HorizontalStackLayout BackgroundColor="Teal">
                 <Button Text="POLUB"
-                        Clicked="LikeButton_OnClicked" />
+                        Clicked="LikeButton_OnClicked"
+                        BackgroundColor="Teal" />
 
                 <Button Text="USUŃ"
-                        Clicked="DeleteButton_OnClicked" />
+                        Clicked="DeleteButton_OnClicked"
+                        BackgroundColor="Teal" />
 
-                <Button Text="ZAPISZ" />
+                <Button Text="ZAPISZ"
+                        BackgroundColor="Teal" />
             </HorizontalStackLayout>
 
             <Label x:Name="LikesLabel"
