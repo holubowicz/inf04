@@ -9,7 +9,8 @@
             <Label Text="Domek w górach"
                    FontSize="24" />
 
-            <Image Source="obraz.jpg" />
+            <Image Source="obraz.jpg"
+                   Aspect="AspectFit" />
 
             <HorizontalStackLayout BackgroundColor="Teal">
                 <Button Text="POLUB"

@@ -13,15 +13,18 @@
 
             <Label Text="Podaj e-mail:" />
             <Entry x:Name="EmailEntry"
-                   Placeholder="email" />
+                   Placeholder="email"
+                   HorizontalOptions="Fill" />
 
             <Label Text="Podaj hasło:" />
             <Entry x:Name="PasswordEntry"
-                   IsPassword="True" />
+                   IsPassword="True"
+                   HorizontalOptions="Fill" />
 
             <Label Text="Powtórz hasło:" />
             <Entry x:Name="PasswordRepetitionEntry"
-                   IsPassword="True" />
+                   IsPassword="True"
+                   HorizontalOptions="Fill" />
 
             <Button Text="ZATWIERDŹ"
                     Clicked="ConfirmButton_OnClicked"
