@@ -16,7 +16,7 @@ namespace DesktopApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private static readonly string Filepath = Path.Combine("Data.txt");
+        private static readonly string Filepath = Path.GetFullPath("Data.txt");
         private static readonly int FieldsCount = 5;
 
         private List<MusicAlbum> _albums = new List<MusicAlbum>();
