@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="#ED27C121">
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Center">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <ImageButton x:Name="Kosc0ImageButton"
+                             Clicked="KoscImageButton_OnClicked"
+                             CommandParameter="0"
+                             Source="kosc0.png"
+                             Margin="10" />
+
+                <ImageButton x:Name="Kosc1ImageButton"
+                             Clicked="KoscImageButton_OnClicked"
+                             CommandParameter="1"
+                             Source="kosc0.png"
+                             Margin="10" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <ImageButton x:Name="Kosc2ImageButton"
+                             Clicked="KoscImageButton_OnClicked"
+                             CommandParameter="2"
+                             Source="kosc0.png"
+                             Margin="10" />
+
+                <ImageButton x:Name="Kosc3ImageButton"
+                             Clicked="KoscImageButton_OnClicked"
+                             CommandParameter="3"
+                             Source="kosc0.png"
+                             Margin="10" />
+
+                <ImageButton x:Name="Kosc4ImageButton"
+                             Clicked="KoscImageButton_OnClicked"
+                             CommandParameter="4"
+                             Source="kosc0.png"
+                             Margin="10" />
+            </HorizontalStackLayout>
+
+            <Button Text="RZUT"
+                    Clicked="RzutButton_OnClicked"
+                    Margin="10"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#ED275021" />
+
+            <Label x:Name="WynikLabel"
+                   Text="0"
+                   HorizontalOptions="Center"
+                   FontSize="40" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
