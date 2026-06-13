@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="#2E7CB8">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image x:Name="PytanieImage"
+                   Source="zad1.jpg"
+                   MaximumHeightRequest="310"
+                   Margin="0,20,0,5"
+                   HorizontalOptions="Center" />
+
+            <Label x:Name="PytanieLabel"
+                   Text="Które to schronisko?"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   FontSize="24" />
+
+            <RadioButton x:Name="OdpowiedzARadioButton" GroupName="Odpowiedzi">
+                <RadioButton.Content>
+                    <Label Text="Na Rysiance."
+                           TextColor="White" />
+                </RadioButton.Content>
+            </RadioButton>
+
+            <RadioButton x:Name="OdpowiedzBRadioButton" GroupName="Odpowiedzi">
+                <RadioButton.Content>
+                    <Label Text="Na Wielkiej Raczy."
+                           TextColor="White" />
+                </RadioButton.Content>
+            </RadioButton>
+
+            <RadioButton x:Name="OdpowiedzCRadioButton" GroupName="Odpowiedzi">
+                <RadioButton.Content>
+                    <Label Text="Na Wielkiej Rycerzowej."
+                           TextColor="White" />
+                </RadioButton.Content>
+            </RadioButton>
+
+            <Button Text="DALEJ"
+                    Clicked="DalejButton_OnClicked"
+                    HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
